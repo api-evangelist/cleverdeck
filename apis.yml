@@ -1,22 +1,88 @@
 aid: cleverdeck
 name: Cleverdeck
-description: Cleverdeck is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  CleverDeck is a spaced-repetition flashcard application for iOS, built by an
+  independent developer to help people learn and retain vocabulary and other
+  material more efficiently. It ships hand-made premium decks covering roughly
+  the 3,000 most common words in major foreign languages — Spanish, French,
+  German, Chinese, Japanese, Arabic, Italian, Portuguese, Turkish, Persian,
+  Russian and advanced English — with translations, transliterations, images,
+  native-speaker audio, and example sentences in both English and the target
+  language. The app uses the SM-2 spaced-repetition algorithm (as popularized
+  by SuperMemo and Anki) with a customizable learning schedule, cross-device
+  sync, and full offline support. It is free to create and study your own
+  content, with unlimited access to the premium decks for $3 per month.
+  CleverDeck is a consumer mobile product and publishes no public API, SDK,
+  developer portal, or agent-facing surface.
 url: https://raw.githubusercontent.com/api-evangelist/cleverdeck/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://s3.amazonaws.com/cleverdecksite/images/favicons/favicon-192.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment-note: >-
+  Consumer iOS spaced-repetition flashcard app by a solo developer. No public
+  API, OpenAPI/spec, SDK, well-known, security.txt, or llms.txt surface exists
+  (probed 2026-07-18). Enrichment limited to identity hygiene, real published
+  link-properties, and a domain-security probe.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Education
+- Language Learning
+- Flashcards
+- Spaced Repetition
+- EdTech
+- iOS
+- Mobile App
+- Vocabulary
 apis: []
+common:
+- type: DomainSecurity
+  url: security/cleverdeck-domain-security.yml
+- type: Website
+  url: https://cleverdeck.com/
+  name: CleverDeck Website
+- type: Documentation
+  url: https://cleverdeck.com/manual/
+  name: CleverDeck Manual
+- type: TermsOfService
+  url: https://cleverdeck.com/tos/
+  name: Terms of Service
+- type: PrivacyPolicy
+  url: https://cleverdeck.com/privacy/
+  name: Privacy Policy
+- type: Support
+  url: mailto:justin@cleverdeck.com
+  name: Support Email
+- type: X
+  url: https://twitter.com/clever_deck
+  name: CleverDeck on X
+- type: Download
+  url: https://itunes.apple.com/us/app/cleverdeck-spaced-repetition-flashcards/id881765907
+  name: Download on the App Store
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
