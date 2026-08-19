@@ -38,7 +38,7 @@ x-enrichment-note: >-
   API, OpenAPI/spec, SDK, well-known, security.txt, or llms.txt surface exists
   (probed 2026-07-18). Enrichment limited to identity hygiene, real published
   link-properties, and a domain-security probe.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
